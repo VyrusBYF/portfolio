@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Portfolio Site</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body class="ch-body">
+        <!-- Header -->
+        <!-- <header id="header">
+        <div class="inner">
+            <a href="#" class="image avatar"><img src="images/thumbs/prof-pic2.png" alt="" /></a>
+            <h1>I'm <strong>Richard Howlett</strong>, <br> a Jamaican Software Developer.</h1>
+        </div>
+    </header> -->
+
+        <!-- Main -->
+        <div id="ch-main">
+            <section id="section-1">
+                <div class="container py-5">
+                    <h1 class="text-center py-4">CourseHub</h1>
+                    <div class="row justify-content-center pt-4">
+                        <div class="col-6 col-12-xsmall work-item">
+                            <img src="images/thumbs/choosing-2.svg" alt="choosing-pic2" class="img-fluid" />
+                            <p class="py-2 fw-light fst-italic">A prototype recommender system.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h1 class="display-4 pb-2">What is CourseHub?</h1>
+                        <hr class="ch-text-color-3" />
+                    </div>
+                    <div class="row">
+                        <p class="ch-text-color-1">
+                            CourseHub is a course recommendation tool that allows students to make informed choices when
+                            choosing free electives. These electives make up the remaining credit requirements
+                            associated with a degree programme and can be chosen from any available field of study at
+                            the university. The app was designed with the intended integration of the University of the
+                            West Indies' student administration system.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-2">
+                <div class="container py-5">
+                    <h1 class="display-4 pb-2">What is a Recommender System?</h1>
+                    <div class="row">
+                        <hr class="ch-text-color-3" />
+                        <h3 class="display-6">Recommender Systems</h3>
+                        <p>
+                            Recommender systems are information filtering systems that operate on the preferences or
+                            item ratings of a given user(s). The system utilizes user behavior and historical data to
+                            predict an item that a given user might like. This is based on the similarity between the
+                            choices or the similarities among the user and other users in the system.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <h3 class="display-6">Content-Based Filtering</h3>
+                        <p>
+                            The application utilizes content-based filtering as a recommendation method. This involves
+                            the comparison of an item's features within the system and aspects of a given user(s) in
+                            order to determine results that fit with the user's profile.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-3">
+                <div class="container py-5">
+                    <div class="row">
+                        <h1 class="display-4 pb-2">Features</h1>
+                        <hr class="ch-text-color-3" />
+                    </div>
+                    <!-- Algorithm Description -->
+                    <div class="row">
+                        <h3 class="display-6">Three Part Algorithm</h3>
+                        <p>
+                            The overall algorithm was initially too complex to work as a single function and thus split
+                            into three specific processes for various routes.
+                        </p>
+                    </div>
+                    <div class="row py-4">
+                        <p class="fw-light fst-italic">
+                            This is the main page of the application where the user's information is entered
+                        </p>
+                        <img src="images/thumbs/PictureLog-1.png" alt="" class="img-fluid w-50" />
+                        <p class="fw-light fst-italic">
+                            The user in this example is pursuing a degree in computer science.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <ul class="ms-3">
+                            <li class="py-3">
+                                <p class="fw-bold fs-2">Algorithm 1: Popularity-Based Filtering</p>
+                                <p>
+                                    The system displays results based on what other users sharing a similar degree have
+                                    picked in order of frequency.
+                                </p>
+                                <img src="images/thumbs/PictureLog-2.png" alt="" class="img-fluid w-50 pb-5" />
+                            </li>
+
+                            <li class="py-3">
+                                <p class="fw-bold fs-2">Algorithm 2: Item-Based Collaborative Filtering</p>
+                                <p>
+                                    The system displays results based on tags shared with courses, the user has in
+                                    progress or has already completed.
+                                </p>
+                                <img src="images/thumbs/PictureLog-3.png" alt="" class="img-fluid w-50 pb-5" />
+                            </li>
+                            <li class="py-3">
+                                <p class="fw-bold fs-2">Algorithm 3: Model-Based Collaborative Filtering</p>
+                                <p>
+                                    The system displays results based on other users who match the academic performance
+                                    and degree of the user and compares the similarities between those users to find
+                                    courses the user may also have an interest in.
+                                </p>
+                                <img src="images/thumbs/PictureLog-4.png" alt="" class="img-fluid w-50 pb-5" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3 class="display-6">Course Tagging</h3>
+                        <p>
+                            Tags were generated by extracting noun-phrases from the course descriptions using a natural
+                            language processor. Each tag was used as a means for further grouping and classification.
+                            This led to the creation of a scoring system referred to as the
+                            <span class="fw-bold">compatibility index</span> .
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-4">
+                <div class="container py-5">
+                    <div class="row">
+                        <h1 class="display-4 pb-2">Technology Used</h1>
+                        <hr class="ch-text-color-3" />
+                    </div>
+
+                    <div class="row py-2">
+                        <h3 class="display-6">HTML, CSS & Vue.js</h3>
+                        <p>Used to provide the front-end design.</p>
+                    </div>
+                    <div class="row py-2">
+                        <h3 class="display-6">JavaScript</h3>
+                        <p>Used to provide website functionality.</p>
+                    </div>
+                    <div class="row py-2">
+                        <h3 class="display-6">PostgreSQL</h3>
+                        <p>Used as the database management system.</p>
+                    </div>
+                    <div class="row py-2">
+                        <h3 class="display-6">R</h3>
+                        <p>Used to clean, organize and visualize the data being processed.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-5">
+                <div class="container py-5">
+                    <h1 class="display-4 pb-2">Design Choices</h1>
+                    <div class="row">
+                        <hr class="ch-text-color-3" />
+                        <h3 class="display-6"></h3>
+                        <p>
+                            CourseHub uses a database of contrived data for historical students and data based on the
+                            courses offered by the University. The students created had their data randomized to
+                            mitigate bias in the data.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <ul class="ms-3">
+                            <li>
+                                <p>
+                                    Out of the 6 faculties present at the university only 3 were used due to the niche
+                                    system surrounding course eligibility and credit acquisition.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Out of 200+ programmes offered by the university only 73 were chosen for the
+                                    prototype.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Approximately 1000 courses were taken from the pool.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    The sample size of simulated students is 100k, which represents approximately 6
+                                    years of historical data.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="section-6">
+                <div class="container py-5">
+                    <div class="row">
+                        <h1 class="display-4 pb-2">How It Works</h1>
+                        <hr class="ch-text-color-3" />
+                    </div>
+                    <div class="row text-center justify-content-center">
+                        <h3 class="display-6">Data Processing</h3>
+                        <img src="images/thumbs/Phase_1.PNG" class="image-fluid w-50 py-3" />
+                    </div>
+                    <div class="row text-center justify-content-center">
+                        <h3 class="display-6">Database Design</h3>
+                        <img src="images/thumbs/erd.png" alt="" class="img-fluid w-75" />
+                    </div>
+                </div>
+            </section>
+            <section id="section-7">
+                <div class="container py-5">
+                    <div class="row">
+                        <h1 class="display-4 pb-2">Limitations</h1>
+                        <hr class="ch-text-color-3" />
+                    </div>
+                    <div class="row">
+                        <p>
+                            Other faculties were excluded from the pool due to their niche course structure and
+                            predefined programme requirements.
+                        </p>
+                        <p>
+                            The prototype was only able to provide results based on quantitative data, more precise and
+                            useful recommendations would need qualitative data to balance the results. This would be in
+                            the form of course and/or lecturer reviews and course tips based on past student experience.
+                        </p>
+                        <p>
+                            All courses were not judged based on a <span class="fw-bold">complete</span> universal
+                            scale, since the courses provided had varying factors that would affect results. This
+                            includes different class sizes that would affect the averages calculated for a course and
+                            the missing or incomplete course descriptions that would affect tag generation.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+
+        <footer id="">
+            <a href="index.html">Go Back</a>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
